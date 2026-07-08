@@ -37,18 +37,28 @@ nav{
 
 .logo{
 
-    font-size:24px;
+    display:flex;
 
-    font-weight:700;
+    align-items:center;
 
-    color:#1E4D4F;
+     gap: 8px;
 
 }
 
-.logo i{
+.logo img{
 
-    color:#B23A48;
+    height:60px;
 
+    width:auto;
+
+    display: block;
+
+}
+
+.logo span{
+    font-size: 28px;
+    font-weight: 700;
+    color: #1E4D4F;
 }
 
 nav ul{
